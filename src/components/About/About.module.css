@@ -1,0 +1,162 @@
+@import "../../vars.css";
+
+.container {
+    position: relative;
+    flex-wrap: wrap; 
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 49px;
+    z-index: 1;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 129px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 16px;
+    padding: 73px;
+    flex-wrap: wrap;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    color: var(--color-text);
+    z-index: 1;
+    flex: 1 1 auto;
+}
+
+.pointContent {
+    margin-left: 15px;
+    margin-right: 50px;
+}
+
+.points {
+    color: var(--color-text);
+    z-index: 1;
+    flex: 1 1 auto;
+    max-width: 45%;
+    box-sizing: border-box;
+    display: flex;  /* Wymaga flexboxa, aby gap działał */
+    flex-wrap: wrap;  /* Umożliwia zawijanie elementów na mniejszych ekranach */
+    gap: 25px;
+    
+}
+
+.point {
+    display: flex;
+    background-image: linear-gradient(
+        90deg,
+        rgba(165, 215, 232, 0.42) 0%,
+        rgba(255, 255, 255, 0) 100%
+    );
+    border-radius: 20px;
+    flex-direction: row;
+    align-items: center;
+    color: var(--color-text);
+    z-index: 1;
+    background-size: 0 100%;
+    background-repeat: no-repeat;
+    transition: 0.4s;
+}
+
+.point:hover {
+    background-size: 100% 100%;
+}
+
+.title {
+    padding:20px;
+    font-size: 25px;
+    font-weight: 900;
+    margin-bottom: 33px;
+    font-family: var(--font-roboto);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 70%, rgba(255,255,255,0) 120%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+
+.title2 {
+    margin-right: 10px;
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: 1600;
+    margin-bottom: 10px;
+    font-family: var(--font-roboto);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 70%, rgba(255,255,255,0) 120%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.description {
+    font-size: 20px;
+    font-family: var(--font-roboto);
+    margin-bottom: 20px;
+}
+
+.fullMeImg {
+    width: 60%; /* Ogranicza szerokość obrazka */
+    object-fit: cover;
+    align-self: center;
+    margin-right: 20px; /* Ustawienie marginesu, aby oddzielić obrazek od tekstu */
+}
+
+.contactBtn {
+    text-decoration: none;
+    background-color: var(--color-primary);
+    color: var(--color-text);
+    border-radius: 100px;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 17px 26px;
+    box-shadow: 0 0 4px 0 rgba(0,0,0,0.25);
+}
+
+.heroImg {
+    width: 50%;
+    z-index: 1;
+
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes floating {
+    0% {
+        transform: translate(0, 0px);
+    }
+    50% {
+        transform: translate(0, 10px);
+    }
+    100% {
+        transform: translate(0, -0px);
+    }
+}
+
+@media screen and (max-width: 830px){
+    .container {
+        flex-direction: column;
+    }
+
+    .fullMeImg {
+        display: none;
+    }
+
+    .content {
+        align-items: center;
+    }
+
+    .points {
+        max-width: 100%; /* Umożliwia pełną szerokość dla punktów */
+        align-items: center;  /* Wyśrodkowanie zawartości */
+        justify-content: center; /* Wyśrodkowanie zawartości w poziomie */
+        text-align: center; /* Wyrównanie tekstu na środku */
+    }
+
+    .pointContent {
+        align-items: flex-start;  /* Wyrównanie zawartości do lewej */
+        text-align: left;  /* Wyrównanie tekstu do lewej */
+        margin-left: 30px;
+        padding: 20px;
+    }
+
+}
