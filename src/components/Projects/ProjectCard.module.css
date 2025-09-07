@@ -3,11 +3,10 @@
 .container {
     flex-direction: column;
     display: flex;
-    border-radius: 10px;
-    background: linear-gradient(180deg, #576cbc 0%, #132a53);
-    box-shadow: 0 16px 14px 0 #04152d;
+    background-color: #E7E7E7; /* tło kart */
     padding: 18px 24px;
     max-width: 345px;
+    border: 3px solid #383537; /* ciemna ramka */
 }
 
 .image {
@@ -17,12 +16,14 @@
 .title {
     font-size: 25px;
     font-weight: 700;
+    color: #383537
 }
 
 .description {
     margin-top: 6px;
     font-size: 25px;
     font-weight: 400;
+    color: #383537;
 }
 
 .skills {
@@ -36,26 +37,34 @@
 }
 
 .skill {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 400;
-    border-radius: 100px;
-    background: var(--color-dark);
+    border-radius: 0;
+    background: #383537;
+    color: #E7E7E7;
     padding: 2px 22px;
 }
 
 .links {
-    width: 100%;
-    margin-top: 26px;
     display: flex;
-    justify-content: space-around;
-}
+    margin-top: 26px;
+    flex-direction: row;
+    justify-content: space-between; /* lub space-evenly */
+    align-items: center;
+    list-style: none;
+    width: 100%;
+    gap: 20px; /* lub mniej, jeśli za duże */
+    flex-wrap: wrap; /* dla responsywności */
+  }
 
-.link {
+  .link {
     text-decoration: none;
-    color: var(--color-text);
-    font-size: 30px;
+    color: #131A25; /* ciemny tekst */
+    font-size: 28px;
     font-weight: 600;
-    border-radius: 100px;
-    background: var(--color-primary);
+    border: 2px solid #131A25; /* ciemna obwódka */
+    background: transparent; /* przezroczyste tło */
     padding: 1px 22px;
-}
+    border-radius: 0; /* zostawiasz jeśli nie chcesz zaokrągleń */
+  }
+  

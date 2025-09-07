@@ -1,10 +1,13 @@
 @import "../../vars.css";
 
 .container {
-    margin-top: 76px;
     color: var(--color-text);
-    margin-left: 10%;
-    margin-right: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: #DEB472;
+    width: 100%;
+    box-sizing: border-box;
+    padding-bottom: 5px;
 }
 
 .title {
@@ -12,6 +15,8 @@
     font-weight: 700;
     letter-spacing: 1.75px;
     text-transform: uppercase;
+    margin-bottom: 80px;
+    color: #383537
 }
 
 .projects {
@@ -24,3 +29,14 @@
     gap: 15px;
     width: 100%;
 }
+
+.waveTopWrapper {
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+    font-size: 0;
+    position: relative;
+    z-index: 1;
+    margin-bottom: -2px; /* to zakrywa przerwę */
+    margin-top: -2px;
+  }

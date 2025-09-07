@@ -1,0 +1,39 @@
+[
+    {
+      "title": "Photography",
+      "imageSrc": "about/photographyIcon.png",
+      "alt": "Photography icon",
+      "description": "Trains my eye for detail, light, color, and composition"
+    },
+    {
+      "title": "Traveling",
+      "imageSrc": "about/travelIcon.png",
+      "alt": "Traveling icon",
+      "description": "Inspires my creativity through new cultures, colors and environments"
+    },
+    {
+      "title": "Yoga",
+      "imageSrc": "about/yogaIcon.png",
+      "alt": "Yoga icon",
+      "description": "Reminds me to breathe (especially during debugging)"
+    },
+    {
+      "title": "Psychology",
+      "imageSrc": "about/psychologyIcon.png",
+      "alt": "Psychology icon",
+      "description": "Deepens my understanding of user behavior and enhances empathy and communication skills"
+    },
+    {
+      "title": "Hygge",
+      "imageSrc": "about/hyggeIcon.png",
+      "alt": "Hygge icon",
+      "description": "Reminds me to create experiences that feel good, not just functional"
+    },
+    {
+      "title": "Matcha",
+      "imageSrc": "about/matchaIcon.png",
+      "alt": "Matcha icon",
+      "description": "Preparing matcha is a small ritual that grounds my day, and sipping it while coding helps me slow down and focus"
+    }
+  ]
+  

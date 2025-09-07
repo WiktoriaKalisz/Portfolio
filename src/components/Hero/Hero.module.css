@@ -17,20 +17,19 @@
     align-items: flex-start;
     color: var(--color-text);
     z-index: 1;
+    margin-right: 5%
 }
 
 .title {
     font-size: 72px;
-    font-weight: 900;
+    font-weight: 500;
     margin-bottom: 33px;
     font-family: var(--font-roboto);
-    background: linear-gradient(90deg, rgba(255,255,255,1) 70%, rgba(255,255,255,0) 120%);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
+    color: var(--color-text);
 }
 
 .description {
-    font-size: 30px;
+    font-size: 25px;
     font-family: var(--font-roboto);
     margin-bottom: 52px;
 }
@@ -103,5 +102,22 @@
 
     .content {
         align-items: center;
+        text-align: center; 
     }
+
+    .heroImg {
+        width: 80%;
+        max-width: 300px;
+        margin-bottom: 30px;
+      }
+}
+
+.waveTopWrapper {
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+    font-size: 0;
+    position: relative;
+    z-index: 1;
+    margin-bottom: -2px;
 }
