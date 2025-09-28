@@ -12,19 +12,23 @@
       "imageSrc": "skills/react.png"
     },
     {
-      "title": "Node",
-      "imageSrc": "skills/node.png"
+      "title": "Next-js",
+      "imageSrc": "skills/next-js.png"
     },
     {
-      "title": "GraphQL",
-      "imageSrc": "skills/graphql.png"
+      "title": "Shopify",
+      "imageSrc": "skills/shopify.png"
     },
     {
-      "title": "MongoDB",
-      "imageSrc": "skills/mongodb.png"
+      "title": "TypeScript",
+      "imageSrc": "skills/ts.png"
     },
     {
-      "title": "Figma",
-      "imageSrc": "skills/figma.png"
+      "title": "Vercel",
+      "imageSrc": "skills/vercel.png"
+    },
+    {
+      "title": "Sanity",
+      "imageSrc": "skills/sanity.png"
     }
   ]

@@ -1,26 +1,34 @@
 [
     {
-      "title": "Project A",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "title": "CookBook",
+      "imageSrc": "projects/cookbook.png",
+      "description": "CookBook is a recipe web application, featuring a responsive layout. It's built with Next.js, TypeScript, Sanity CMS, and custom React + Tailwind CSS components.",
+      "skills": ["Next.js", "React", "TypeScript", "Sanity CMS", "Tailwind CSS", "Vercel"],
+      "demo": "https://cook-book-gray-tau.vercel.app",
+      "source": "https://github.com/WiktoriaKalisz/CookBook"
     },
     {
-      "title": "Project B",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node", "Sass"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "title": "MyShop",
+      "imageSrc": "projects/myshop.png",
+      "description": "Responsive Shopify store with custom Liquid, CSS, and JavaScript, inspired by 'Pangaia' online shop. Browse collections and products, select variants and manage cart. Demo password: 'demo'.",
+      "skills": ["Shopify Liquid", "Responsive layout"],
+      "demo": "https://mystorewk.myshopify.com",
+      "source": "https://github.com/WiktoriaKalisz/MyShop"
     },
     {
-      "title": "Project C",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
+      "title": "CityWeather",
+      "imageSrc": "projects/cityweather.png",
+      "description": "Simple weather app built with Next.js and TypeScript. Check current weather and local time for any city using OpenWeatherMap and WorldTimeAPI.",
+      "skills": ["Next.js", "TypeScript", "Tailwind CSS", "REST APIs"],
       "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "source": "https://github.com/WiktoriaKalisz/CityWeather"
+    },
+    {
+      "title": "Portfolio",
+      "imageSrc": "projects/cityweather.png",
+      "description": "Simple weather app built with Next.js and TypeScript. Check current weather and local time for any city using OpenWeatherMap and WorldTimeAPI.",
+      "skills": ["Next.js", "TypeScript", "Tailwind CSS", "REST APIs"],
+      "demo": "https://www.example.com",
+      "source": "https://github.com/WiktoriaKalisz/CityWeather"
     }
   ]

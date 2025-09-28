@@ -1,12 +1,15 @@
 @import "../../vars.css";
 
 .container {
-    flex-direction: column;
     display: flex;
-    background-color: #E7E7E7; /* tło kart */
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #E7E7E7;
     padding: 18px 24px;
-    max-width: 345px;
-    border: 3px solid #383537; /* ciemna ramka */
+    width: 400px;
+    height: 850px;
+    border: 3px solid #383537;
+    box-sizing: border-box;
 }
 
 .image {
@@ -49,22 +52,22 @@
     display: flex;
     margin-top: 26px;
     flex-direction: row;
-    justify-content: space-between; /* lub space-evenly */
+    justify-content: space-between;
     align-items: center;
     list-style: none;
     width: 100%;
-    gap: 20px; /* lub mniej, jeśli za duże */
-    flex-wrap: wrap; /* dla responsywności */
+    gap: 20px;
+    flex-wrap: wrap;
   }
 
   .link {
     text-decoration: none;
-    color: #131A25; /* ciemny tekst */
+    color: #131A25;
     font-size: 28px;
     font-weight: 600;
-    border: 2px solid #131A25; /* ciemna obwódka */
-    background: transparent; /* przezroczyste tło */
+    border: 2px solid #131A25;
+    background: transparent;
     padding: 1px 22px;
-    border-radius: 0; /* zostawiasz jeśli nie chcesz zaokrągleń */
+    border-radius: 0;
   }
   
