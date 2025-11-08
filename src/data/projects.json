@@ -3,14 +3,14 @@
       "title": "CookBook",
       "imageSrc": "projects/cookbook.png",
       "description": "CookBook is a recipe web application, featuring a responsive layout. It's built with Next.js, TypeScript, Sanity CMS, and custom React + Tailwind CSS components.",
-      "skills": ["Next.js", "React", "TypeScript", "Sanity CMS", "Tailwind CSS", "Vercel"],
+      "skills": ["Next.js", "React", "TypeScript", "Sanity CMS", "Tailwind CSS", "Vercel", "Responsive layout"],
       "demo": "https://cook-book-gray-tau.vercel.app",
       "source": "https://github.com/WiktoriaKalisz/CookBook"
     },
     {
       "title": "MyShop",
       "imageSrc": "projects/myshop.png",
-      "description": "Responsive Shopify store with custom Liquid, CSS, and JavaScript, inspired by 'Pangaia' online shop. Browse collections and products, select variants and manage cart. Demo password: 'demo'.",
+      "description": "Responsive Shopify store with custom Liquid, CSS, and JavaScript, inspired by 'Pangaia' online shop. Browse collections and products, select variants and manage cart. \n\nDemo password: 'demo'.",
       "skills": ["Shopify Liquid", "Responsive layout"],
       "demo": "https://mystorewk.myshopify.com",
       "source": "https://github.com/WiktoriaKalisz/MyShop"
@@ -26,8 +26,8 @@
     {
       "title": "Portfolio",
       "imageSrc": "projects/portfolio.png",
-      "description": "Simple weather app built with Next.js and TypeScript. Check current weather and local time for any city using OpenWeatherMap and WorldTimeAPI.",
-      "skills": ["Next.js", "TypeScript", "Tailwind CSS", "REST APIs"],
+      "description": "Personal portfolio website showcasing professional experience, projects, and skills. Built with Next.js, TypeScript, React, and Tailwind CSS.",
+      "skills": ["Next.js", "TypeScript", "Tailwind CSS", "React", "Responsive layout"],
       "demo": "https://portfolio-wiktoria-kalisz.vercel.app",
       "source": "https://github.com/WiktoriaKalisz/Portfolio"
     }
