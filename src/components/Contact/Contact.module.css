@@ -8,13 +8,16 @@
   justify-content: space-evenly;
   width: 100vw;
   padding: 50px 10% 70px 10%;
+  z-index: 2;   
+  margin-top: -10px;
+  position: relative;
 }
 
 .text h1 {
   font-size: 80px;
   font-weight: 700;
   letter-spacing: 4px;
-  color: #383537; /* ciemny tekst */
+  color: #383537;
 }
 
 .subtitle {
@@ -52,7 +55,6 @@
   font-size: 0;
   position: relative;
   z-index: 1;
-  margin-bottom: -2px;
   margin-top: -2px;
 }
 
@@ -68,22 +70,21 @@
   .container {
     flex-direction: column;
     gap: 23px;
-    align-items: center; /* Centrowanie całej zawartości */
+    align-items: center;
   }
 
   .text {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;  /* Tekst wyrównany do lewej */
+    align-items: flex-start;
     text-align: left;
   }
 
   .links {
-    align-items: flex-start; /* Linki również wyrównane do lewej */
+    align-items: flex-start;
     text-align: left;
   }
 
-  h1,
   .subtitle {
     display: none;
   }

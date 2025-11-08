@@ -21,17 +21,20 @@
 }
 
 .title {
-    font-size: 72px;
-    font-weight: 500;
-    margin-bottom: 33px;
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 40px;
     font-family: var(--font-roboto);
     color: var(--color-text);
+    letter-spacing: 1px;
 }
 
 .description {
-    font-size: 25px;
+    font-size: 20px;
     font-family: var(--font-roboto);
-    margin-bottom: 52px;
+    margin-bottom: 32px;
+    line-height: 1.5;
+    max-width: 600px;
 }
 
 .contactBtn {
@@ -48,7 +51,7 @@
 .heroImg {
     width: 50%;
     z-index: 1;
-
+    margin-top: 50px;
     animation-name: floating;
     animation-duration: 3s;
     animation-iteration-count: infinite;
@@ -108,7 +111,7 @@
     .heroImg {
         width: 80%;
         max-width: 300px;
-        margin-bottom: 30px;
+        margin-bottom: 80px;
       }
 }
 

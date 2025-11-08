@@ -3,132 +3,170 @@
 .container {
   background-color: #E7E7E7;
   color: #383537;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding: 40px 10%;
   width: 100%;
   box-sizing: border-box;
 }
 
 .title {
   color: #383537;
-  font-size: 35px;
+  font-size: 36px;
   font-weight: 700;
-  letter-spacing: 1.75px;
+  letter-spacing: 1.5px;
   text-transform: uppercase;
-  margin-bottom: 80px;
+  margin-bottom: 60px;
+  margin-top: 20px;
 }
 
 .content {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
-  margin-top: 14px;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 60px;
 }
 
 .skills {
   width: 45%;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 37px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+  gap: 24px;
 }
 
 .skill {
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 18px;
+  box-shadow: 0 4px 12px rgba(56, 53, 55, 0.1);
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 11px;
+  justify-content: center;
+  padding: 24px 16px;
+  transition: all 0.3s ease;
 }
 
-.skillImageContainer {
-  border: 2px solid #383537;
-  background-color: transparent;
-  border-radius: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 120px;
-  height: 120px;
+.skill:hover {
+  transform: scale(1.10);
+  box-shadow: 0 8px 20px rgba(56, 53, 55, 0.15);
 }
 
 .skillImageContainer img {
-  width: 75px;
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  filter: brightness(0) saturate(100%) invert(14%) sepia(2%) saturate(100%) hue-rotate(319deg) brightness(92%) contrast(91%);
 }
 
 .skill p {
-  font-size: 25px;
+  font-size: 16px;
   font-family: var(--font-roboto);
   font-weight: 500;
   color: #383537;
+  margin-top: 10px;
+  text-align: center;
 }
 
 .history {
-  width: 45%;
+  width: 50%;
   display: flex;
   flex-direction: column;
-  gap: 40px;
+  gap: 30px;
+  position: relative;
+  padding-left: 25px;
+}
+
+.history::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 10px;
+  width: 3px;
+  height: 100%;
+  background-color: #DEB472;
+  border-radius: 3px;
 }
 
 .historyItem {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 17px;
-  border: 2px solid #383537;
-  background-color: transparent;
-  border-radius: 0;
-  padding: 24px;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 18px;
+  box-shadow: 0 4px 12px rgba(56, 53, 55, 0.1);
+  padding: 24px 28px;
+  transition: all 0.3s ease;
+  position: relative;
 }
 
-.historyItem img {
-  width: 50px;
+.historyItem::before {
+  content: "";
+  position: absolute;
+  left: -10px;
+  top: 32px;
+  width: 14px;
+  height: 14px;
+  background-color: #DEB472;
+  border-radius: 50%;
+  box-shadow: 0 0 0 4px #E7E7E7;
 }
 
-.historyItemDetails {
-  font-family: var(--font-roboto);
-  color: #383537;
+.historyItem:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(56, 53, 55, 0.15);
 }
 
 .historyItemDetails h3 {
-  font-size: 30px;
-  font-weight: 500;
+  font-size: 20px;
+  font-weight: 600;
+  color: #383537;
+  margin-bottom: 6px;
 }
 
 .historyItemDetails p {
-  font-size: 20px;
-  font-weight: 300;
+  font-size: 15px;
+  font-weight: 500;
+  color: #DEB472;
+  margin-bottom: 12px;
 }
 
 .historyItemDetails ul {
-  margin-top: 6px;
-  list-style-position: inside;
-  font-size: 25px;
-  list-style-type: disc;
-  margin-left: 17px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
-@media screen and (max-width:830px) {
+.historyItemDetails ul li {
+  font-size: 16px;
+  color: #383537;
+  line-height: 1.6;
+  position: relative;
+  padding-left: 18px;
+}
+
+.historyItemDetails ul li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #DEB472;
+}
+
+@media screen and (max-width: 830px) {
   .content {
     flex-direction: column;
     align-items: center;
-    gap: 34px;
+    gap: 40px;
+  }
+
+  .skills, .history {
+    width: 100%;
   }
 
   .skills {
-    width: 100%;
-    flex-direction: row;
-    justify-content: center;
+    grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
   }
 
-  .history {
-    width: 100%;
-    gap: 9px;
+  .history::before {
+    left: 8px;
   }
-}
 
-.wave {
-  display: block;
-  margin: 0;
-  padding: 0;
-  line-height: 0;
-  height: auto;
+  .historyItem::before {
+    left: -2px;
+  }
 }

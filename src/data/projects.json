@@ -17,18 +17,18 @@
     },
     {
       "title": "CityWeather",
-      "imageSrc": "projects/cityweather.png",
+      "imageSrc": "projects/weather.png",
       "description": "Simple weather app built with Next.js and TypeScript. Check current weather and local time for any city using OpenWeatherMap and WorldTimeAPI.",
       "skills": ["Next.js", "TypeScript", "Tailwind CSS", "REST APIs"],
-      "demo": "https://www.example.com",
+      "demo": "https://watherforcity.vercel.app",
       "source": "https://github.com/WiktoriaKalisz/CityWeather"
     },
     {
       "title": "Portfolio",
-      "imageSrc": "projects/cityweather.png",
+      "imageSrc": "projects/portfolio.png",
       "description": "Simple weather app built with Next.js and TypeScript. Check current weather and local time for any city using OpenWeatherMap and WorldTimeAPI.",
       "skills": ["Next.js", "TypeScript", "Tailwind CSS", "REST APIs"],
-      "demo": "https://www.example.com",
-      "source": "https://github.com/WiktoriaKalisz/CityWeather"
+      "demo": "https://portfolio-wiktoria-kalisz.vercel.app",
+      "source": "https://github.com/WiktoriaKalisz/Portfolio"
     }
   ]

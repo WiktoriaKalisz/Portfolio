@@ -7,7 +7,8 @@
     background-color: #DEB472;
     width: 100%;
     box-sizing: border-box;
-    padding-bottom: 5px;
+    padding-bottom: 50px;
+    padding-top: 30px;
 }
 
 .title {
@@ -21,22 +22,18 @@
 
 .projects {
     margin-top: 37px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    gap: 15px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 25px;
     width: 100%;
-}
+    justify-items: start;
+  }
 
 .waveTopWrapper {
-    margin: 0;
-    padding: 0;
     line-height: 0;
     font-size: 0;
     position: relative;
     z-index: 1;
-    margin-bottom: -2px; /* to zakrywa przerwę */
-    margin-top: -2px;
+    margin-bottom: -4px;
+    transform: translateY(-2px);
   }

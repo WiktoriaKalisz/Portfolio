@@ -5,8 +5,8 @@ import interests from "../../data/interests.json"
 
 export const About = () => {
   return (
-    <section className={styles.container} id="about">
-            <h1 className={styles.title}>Interests</h1>
+    <section className={styles.container}>
+            <h1 className={styles.title} id="about">Interests</h1>
             <div className={styles.content}>
             <div className={styles.pointsGrid}>
   {interests.map((item, index) => (

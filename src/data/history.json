@@ -4,7 +4,7 @@
       "organisation": "Intel",
       "startDate": "July, 2021",
       "endDate": "Present",
-      "experiences": ["Developed responsive web UI", "Built K6 load testing framework", "Cloud infra & orchestration"],
+      "experiences": ["Developing and maintaining responsive web user interfaces", "Designing and implementing load testing framework using K6", "Building and managing cloud infrastructure and orchestration tools"],
       "imageSrc": "history/intel.png"
     },
     {
@@ -12,7 +12,7 @@
       "organisation": "Autronica, Carrier Fire & Security Polska",
       "startDate": "July, 2021",
       "endDate": "October, 2021",
-      "experiences": ["Front-end web application development", "Backend-end web application development"],
+      "experiences": ["Developing and optimizing front-end web applications", "Implementing and maintaining backend services and APIs"],
       "imageSrc": "history/microsoft.png"
     }
   ]
