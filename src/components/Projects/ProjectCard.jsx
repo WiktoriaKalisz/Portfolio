@@ -1,10 +1,9 @@
-import React from 'react'
 import { getImageUrl } from '../../utils'
 import styles from "./ProjectCard.module.css"
 
 export const ProjectCard = ({project : {title,imageSrc,description,skills,demo,source}}) => {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} data-testid="project-card">
     <a href={demo} target="_blank" rel="noopener noreferrer">
       <img src={getImageUrl(imageSrc)} alt={title} className={styles.image} />
     </a>

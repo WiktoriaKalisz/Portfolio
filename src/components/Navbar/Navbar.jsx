@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import styles from './Navbar.module.css'
 import { getImageUrl } from '../../utils';
 
@@ -25,7 +25,7 @@ export const Navbar = () => {
         </ul>
       </div>
       {menuOpen && (
-        <div className={styles.overlay} onClick={() => setMenuOpen(false)}></div>
+        <div className={styles.overlay} onClick={() => setMenuOpen(false)} data-testid="overlay"></div>
       )}
     </nav>
   )
