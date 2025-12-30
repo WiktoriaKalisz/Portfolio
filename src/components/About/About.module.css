@@ -1,8 +1,27 @@
 @import "../../vars.css";
 
-.container { position: relative; flex-direction: column; align-items: center; justify-content: center; padding: 50px 10%; z-index: 1; background-color: #383537; width: 100%; box-sizing: border-box; padding-top:70px;}
+.container {
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 10%;
+  padding-top: 70px;
+  z-index: 1;
+  background-color: #383537;
+  width: 100%;
+  box-sizing: border-box;
+}
 
-.title { color: rgba(255, 255, 255, 0.3); font-size: 35px; font-weight: 700; letter-spacing: 1.75px; text-transform: uppercase; margin-bottom: 80px; margin-top: -100px; }
+.title {
+  color: rgba(255, 255, 255, 0.3);
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+  margin-bottom: 80px;
+  margin-top: -100px;
+}
 
 .content {
   display: flex;

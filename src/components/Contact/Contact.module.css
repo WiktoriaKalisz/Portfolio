@@ -6,9 +6,9 @@
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  width: 100vw;
+  width: 100%;
   padding: 50px 10% 70px 10%;
-  z-index: 2;   
+  z-index: 2;
   margin-top: -10px;
   position: relative;
 }
@@ -64,6 +64,11 @@
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 1.5px;
+}
+
+.link a:focus-visible {
+  outline: 3px solid rgba(222,180,114,0.25);
+  outline-offset: 4px;
 }
 
 @media screen and (max-width: 830px) {
