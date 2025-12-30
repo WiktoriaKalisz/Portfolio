@@ -66,11 +66,6 @@
   letter-spacing: 1.5px;
 }
 
-.link a:focus-visible {
-  outline: 3px solid rgba(222,180,114,0.25);
-  outline-offset: 4px;
-}
-
 @media screen and (max-width: 830px) {
   .container {
     flex-direction: column;
