@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { getImageUrl } from '../../utils'
 import styles from './Contact.module.css'
 
@@ -6,7 +6,7 @@ const safeGetImageUrl = (path) => {
   try {
     return getImageUrl(path)
   } catch (err) {
-    // eslint-disable-next-line no-console
+     
     console.error('getImageUrl failed for', path, err)
     return ''
   }

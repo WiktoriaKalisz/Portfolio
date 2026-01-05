@@ -1,4 +1,3 @@
-import React from 'react'
 import skillsDefault from "../../data/skills.json"
 import historyDefault from "../../data/history.json"
 import styles from "./Experience.module.css"

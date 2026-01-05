@@ -1,8 +1,7 @@
-import React, {useState} from 'react'
 import styles from './About.module.css'
 import { getImageUrl } from '../../utils';
 import interests from "../../data/interests.json"
-
+ 
 export const About = () => {
   return (
     <section className={styles.container}>

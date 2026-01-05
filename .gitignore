@@ -26,3 +26,6 @@ coverage/
 coverage/**
 lcov.info
 .nyc_output/
+
+cypress/videos/
+cypress/screenshots/
