@@ -1,5 +1,16 @@
+jest.mock('../../utils', () => ({
+  getImageUrl: jest.fn(),
+}))
+
 import { render, screen } from '@testing-library/react'
 import { Contact } from './Contact'
+import { fireEvent } from '@testing-library/react'
+import { getImageUrl } from '../../utils'
+
+
+beforeEach(() => {
+  getImageUrl.mockImplementation((path) => path)
+})
 
 test('renders Contact heading and subtitle', () => {
   render(<Contact />)
@@ -53,4 +64,27 @@ test('renders contact icons with alt text', () => {
   expect(screen.getByAltText(/Email icon/i)).toBeInTheDocument()
   expect(screen.getByAltText(/LinkedIn icon/i)).toBeInTheDocument()
   expect(screen.getByAltText(/GitHub icon/i)).toBeInTheDocument()
+})
+
+test('falls back to letter when image fails to load', () => {
+  render(<Contact />)
+
+  const img = screen.getByAltText(/Email icon/i)
+
+  fireEvent.error(img)
+
+  expect(screen.getByText('E')).toBeInTheDocument()
+})
+
+
+test('renders fallback when getImageUrl throws', () => {
+  getImageUrl.mockImplementation(() => {
+    throw new Error('boom')
+  })
+
+  render(<Contact />)
+
+  expect(screen.getByText('E')).toBeInTheDocument()
+  expect(screen.getByText('L')).toBeInTheDocument()
+  expect(screen.getByText('G')).toBeInTheDocument()
 })
