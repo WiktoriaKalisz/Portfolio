@@ -6,7 +6,6 @@ describe('Projects section', () => {
     cy.get('[data-testid="project-card"]', { timeout: 10000 })
       .should('have.length', 4)
 
-    // inspecting first card for expected structure
     cy.get('[data-testid="project-card"]').first().within(() => {
       cy.get('h3').should('exist')
       cy.get('img')

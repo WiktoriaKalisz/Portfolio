@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: app
-          image: yourdockerhubusername/myapp:demo
+          image: yourdockerhubusername/portfolio:demo
           ports:
             - containerPort: 3000
           envFrom:

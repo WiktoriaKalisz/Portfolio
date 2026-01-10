@@ -45,7 +45,7 @@ jobs:
   docker-build-and-push:
     runs-on: ubuntu-latest
     needs: lint-test-build-e2e
-    if: github.ref == 'refs/heads/main'   # ← tu sprawdzamy gałąź
+    if: github.ref == 'refs/heads/main'
 
     steps:
       - uses: actions/checkout@v4
@@ -61,11 +61,11 @@ jobs:
 
       - name: Build Docker image
         run: |
-          docker build -t myapp:$IMAGE_TAG .
-          docker tag myapp:$IMAGE_TAG wiktoriakalisz/myapp:$IMAGE_TAG
+          docker build -t portfolio:$IMAGE_TAG .
+          docker tag portfolio:$IMAGE_TAG wiktoriakalisz/portfolio:$IMAGE_TAG
 
       - name: Push Docker image to DockerHub
-        run: docker push wiktoriakalisz/myapp:$IMAGE_TAG
+        run: docker push wiktoriakalisz/portfolio:$IMAGE_TAG
 
       - name: List local images
         run: docker images
