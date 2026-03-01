@@ -38,11 +38,13 @@ Portfolio uses a CI/CD pipeline to ensure reliable builds, tests, and deployment
 ## Testing
 
 ### Jest
+
 - Unit tests cover React components, hooks, and utility functions 
 - Test coverage is **~72% statements, ~80% branches, ~69% functions, ~76% lines**, ensuring core functionality is verified
 - Coverage reports are generated in HTML and uploaded as CI artifacts for monitoring code quality
 
 ### Cypress
+
 - End-to-end tests simulate real user flows:  
   - Browsing portfolio sections (Experience, Projects, Interests, Contact)  
   - Viewing project details  
