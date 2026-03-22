@@ -19,7 +19,7 @@
       "title": "CityWeather",
       "imageSrc": "projects/weather.png",
       "description": "Simple weather app built with Next.js and TypeScript. Check current weather and local time for any city using OpenWeatherMap and WorldTimeAPI.",
-      "skills": ["Next.js", "TypeScript", "Tailwind CSS", "REST APIs", "Docker", "Cypress", "Jest"],
+      "skills": ["Next.js", "Vercel", "TypeScript", "Tailwind CSS", "REST APIs", "Docker", "Cypress", "Jest"],
       "demo": "https://watherforcity.vercel.app",
       "source": "https://github.com/WiktoriaKalisz/CityWeather"
     },
@@ -27,7 +27,7 @@
       "title": "Portfolio",
       "imageSrc": "projects/portfolio.png",
       "description": "Personal portfolio website showcasing professional experience, projects, and skills. Built with Next.js, TypeScript, React, and Tailwind CSS.",
-      "skills": ["Next.js", "TypeScript", "Tailwind CSS", "React", "Docker", "Cypress", "Jest", "Responsive layout"],
+      "skills": ["Next.js", "TypeScript", "Tailwind CSS", "React", "Vercel", "Docker", "Cypress", "Jest", "Responsive layout"],
       "demo": "https://portfolio-wiktoria-kalisz.vercel.app",
       "source": "https://github.com/WiktoriaKalisz/Portfolio"
     }
