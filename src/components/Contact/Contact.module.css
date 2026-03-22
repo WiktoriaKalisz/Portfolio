@@ -64,6 +64,7 @@
   font-size: 20px;
   font-weight: 400;
   letter-spacing: 1.5px;
+  font-style: normal !important;
 }
 
 @media screen and (max-width: 830px) {

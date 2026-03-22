@@ -1,12 +1,5 @@
 [
-    {
-      "title": "HTML",
-      "imageSrc": "skills/html.png"
-    },
-    {
-      "title": "CSS",
-      "imageSrc": "skills/css.png"
-    },
+    
     {
       "title": "React",
       "imageSrc": "skills/react.png"
@@ -14,6 +7,10 @@
     {
       "title": "Next-js",
       "imageSrc": "skills/next-js.png"
+    },
+    {
+      "title": "Docker",
+      "imageSrc": "skills/docker.png"
     },
     {
       "title": "Shopify",
@@ -30,5 +27,13 @@
     {
       "title": "Sanity",
       "imageSrc": "skills/sanity.png"
+    },
+    {
+      "title": "HTML",
+      "imageSrc": "skills/html.png"
+    },
+    {
+      "title": "CSS",
+      "imageSrc": "skills/css.png"
     }
   ]

@@ -4,7 +4,7 @@
       "organisation": "Intel",
       "startDate": "July, 2021",
       "endDate": "Present",
-      "experiences": ["Developing and maintaining responsive web user interfaces", "Designing and implementing load testing framework using K6", "Building and managing cloud infrastructure and orchestration tools"],
+      "experiences": ["Developing and maintaining responsive web applications using React, TypeScript and Tailwind CSS across two projects", "Writing unit tests with Jest and end-to-end tests using Cypress", "Designing and implementing load testing framework using K6", "Building and managing cloud infrastructure and orchestration tools"],
       "imageSrc": "history/intel.png"
     },
     {
@@ -12,7 +12,7 @@
       "organisation": "Autronica, Carrier Fire & Security Polska",
       "startDate": "July, 2021",
       "endDate": "October, 2021",
-      "experiences": ["Developing and optimizing front-end web applications", "Implementing and maintaining backend services and APIs"],
+      "experiences": ["Developing and optimizing front-end web applications using React, TypeScript, and Tailwind CSS", "Implementing and maintaining backend services and APIs"],
       "imageSrc": "history/microsoft.png"
     }
   ]
