@@ -4,7 +4,7 @@
       "organisation": "Intel",
       "startDate": "July, 2021",
       "endDate": "Present",
-      "experiences": ["Developing and maintaining responsive web applications using React, TypeScript and Tailwind CSS across two projects", "Writing unit tests with Jest and end-to-end tests using Cypress", "Designing and implementing load testing framework using K6", "Building and managing cloud infrastructure and orchestration tools"],
+      "experiences": ["Developing and maintaining web applications using React, TypeScript and Tailwind CSS across multiple projects", "Writing unit tests with Jest and end-to-end tests using Cypress", "Designing and implementing load testing framework using K6", "Building and managing cloud infrastructure and orchestration tools"],
       "imageSrc": "history/intel.png"
     },
     {
